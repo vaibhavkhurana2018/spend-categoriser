@@ -2,6 +2,8 @@
 
 A privacy-first credit card spend categorization tool. Upload PDF credit card statements, get transactions automatically categorized using Merchant Category Codes (MCC) and keyword matching.
 
+<video src="docs/demo.mov" controls width="100%"></video>
+
 ## Privacy
 
 - **All transaction data stays in your browser** (IndexedDB). Nothing is stored on the server.
