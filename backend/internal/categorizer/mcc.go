@@ -171,21 +171,22 @@ var keywordRules = []keywordRule{
 	{[]string{"sweets", "sweet shop", "haldiram", "bikanervala", "anand sweets", "kanti sweets", "gowri gajanand", "mithai", "namkeen"}, "Grocery", "Sweets & Bakery"},
 
 	// Food & Dining
-	{[]string{"swiggy", "rsp*swiggy", "raz*swiggy", "bundl technologies", "zomato", "uber eats", "doordash", "grubhub", "deliveroo", "foodpanda"}, "Food & Dining", "Delivery"},
-	{[]string{"starbucks", "costa coffee", "cafe coffee day", "ccd", "blue tokai", "third wave", "tim horton", "dunkin", "chaayos"}, "Food & Dining", "Cafes"},
+	{[]string{"swiggy", "rsp*swiggy", "raz*swiggy", "bundl technologies", "zomato", "uber eats", "doordash", "grubhub", "deliveroo", "foodpanda", "eatsure", "box8", "faasos", "behrouz"}, "Food & Dining", "Delivery"},
+	{[]string{"starbucks", "costa coffee", "cafe coffee day", "ccd", "blue tokai", "third wave", "tim horton", "dunkin", "chaayos", "brewdog", "social ", "antispace"}, "Food & Dining", "Cafes"},
 	{[]string{"mcdonald", "burger king", "kfc", "domino", "pizza hut", "subway", "wendy", "taco bell", "chipotle", "pizza bakery"}, "Food & Dining", "Fast Food"},
-	{[]string{"eazydiner", "dineout", "restaurant", "bistro", "diner", "kitchen", "grill", "eatery", "dhaba", "mess", "jalpan", "muhavra"}, "Food & Dining", "Restaurants"},
+	{[]string{"eazydiner", "dineout", "barbeque nation", "saravana bhavan", "paradise biryani", "restaurant", "bistro", "diner", "kitchen", "grill", "eatery", "dhaba", "mess", "jalpan", "muhavra"}, "Food & Dining", "Restaurants"},
 
 	// Travel
-	{[]string{"uber", "ola", "lyft", "rapido", "grab"}, "Travel", "Ride Sharing"},
+	{[]string{"uber", "ola", "lyft", "rapido", "grab", "namma yatri", "nammayatri", "blusmart"}, "Travel", "Ride Sharing"},
 	{[]string{"indigo", "air india", "spicejet", "vistara", "goair", "emirates", "british airways", "lufthansa", "singapore airlines", "qatar airways", "delta", "united airlines", "american airlines", "southwest", "ryanair", "easyjet", "jetblue"}, "Travel", "Airlines"},
-	{[]string{"marriott", "hilton", "hyatt", "taj", "oberoi", "itc hotel", "radisson", "holiday inn", "airbnb", "oyo", "booking.com", "trivago", "makemytrip", "goibibo", "cleartrip", "expedia", "agoda"}, "Travel", "Hotels"},
+	{[]string{"marriott", "hilton", "hyatt", "taj", "oberoi", "itc hotel", "radisson", "holiday inn", "airbnb", "oyo", "booking.com", "trivago", "agoda"}, "Travel", "Hotels"},
+	{[]string{"makemytrip", "goibibo", "cleartrip", "expedia", "yatra", "redbus", "abhibus", "ixigo"}, "Travel", "Travel Agency"},
 	{[]string{"irctc", "railway", "metro", "bus", "transport"}, "Travel", "Public Transport"},
 	{[]string{"shell", "hp petrol", "bharat petroleum", "indian oil", "bpcl", "hpcl", "iocl", "petrol", "diesel", "fuel"}, "Travel", "Fuel"},
 	{[]string{"parking"}, "Travel", "Parking"},
 
 	// Shopping - Online
-	{[]string{"amazon", "flipkart", "myntra", "smartbuy", "gyftr", "ajio", "nykaa", "meesho", "snapdeal", "shopee", "lazada", "ebay", "etsy", "aliexpress", "shein", "asos", "zalando"}, "Shopping", "Online Shopping"},
+	{[]string{"amazon", "flipkart", "myntra", "smartbuy", "gyftr", "ajio", "nykaa", "meesho", "snapdeal", "shopee", "lazada", "ebay", "etsy", "aliexpress", "shein", "asos", "zalando", "tatacliq", "tata cliq", "pepperfry", "urban ladder", "urbanladder", "zivame", "clovia", "limeroad", "bewakoof", "mamaearth", "sugar cosmetics", "boat lifestyle", "noise "}, "Shopping", "Online Shopping"},
 	// Shopping - Electronics
 	{[]string{"samsung", "croma", "reliance digital", "best buy", "currys", "mediamarkt"}, "Shopping", "Electronics"},
 	// Shopping - Clothing & Fashion
@@ -198,7 +199,7 @@ var keywordRules = []keywordRule{
 	{[]string{"lic", "max life", "hdfc life", "icici prudential", "sbi life", "bajaj allianz", "star health", "new india assurance", "insurance", "premium", "policy bazaar", "policybazaar"}, "Insurance", "General"},
 
 	// Entertainment
-	{[]string{"netflix", "disney", "hotstar", "prime video", "hbo", "hulu", "spotify", "apple music", "youtube premium", "sony liv", "zee5", "voot", "jiocinema"}, "Entertainment", "Streaming"},
+	{[]string{"netflix", "disney", "hotstar", "prime video", "hbo", "hulu", "spotify", "apple music", "youtube premium", "sony liv", "zee5", "voot", "jiocinema", "tata play", "d2h", "dish tv"}, "Entertainment", "Streaming"},
 	{[]string{"pvr", "inox", "cinepolis", "imax", "bookmyshow", "cinema", "movie", "amc"}, "Entertainment", "Movies"},
 	{[]string{"playstation", "xbox", "steam", "epic games", "nintendo", "gaming"}, "Entertainment", "Gaming"},
 	{[]string{"concert", "event", "ticketmaster", "festival"}, "Entertainment", "Events"},
@@ -212,21 +213,22 @@ var keywordRules = []keywordRule{
 	{[]string{"water bill", "water supply"}, "Utilities", "Water"},
 
 	// Healthcare
+	{[]string{"practo", "apollo 247", "apollo247", "mfine", "healthians"}, "Healthcare", "Medical"},
 	{[]string{"hospital", "clinic", "diagnostic", "pathology"}, "Healthcare", "Medical"},
-	{[]string{"pharmacy", "chemist", "medicine", "drug store", "apollo pharmacy", "medplus", "netmeds", "pharmeasy", "1mg", "walgreens", "cvs", "ranuja medical"}, "Healthcare", "Pharmacy"},
+	{[]string{"pharmacy", "chemist", "medicine", "drug store", "apollo pharmacy", "medplus", "netmeds", "pharmeasy", "1mg", "tata 1mg", "walgreens", "cvs", "ranuja medical"}, "Healthcare", "Pharmacy"},
 	{[]string{"dental", "dentist", "orthodont"}, "Healthcare", "Dental"},
 	{[]string{"optician", "eye care", "lenskart", "vision", "optical"}, "Healthcare", "Eye Care"},
 
 	// Education
-	{[]string{"school", "academy", "college", "university", "institute", "coursera", "udemy", "edx", "skillshare", "masterclass", "linkedin learning", "pluralsight", "byju", "unacademy", "vedantu"}, "Education", "Courses"},
+	{[]string{"school", "academy", "college", "university", "institute", "coursera", "udemy", "edx", "skillshare", "masterclass", "linkedin learning", "pluralsight", "byju", "unacademy", "vedantu", "simplilearn", "upgrad", "great learning", "scaler", "physics wallah", "whitehat"}, "Education", "Courses"},
 	{[]string{"book", "kindle"}, "Education", "Books"},
 
 	// Lifestyle
-	{[]string{"gym", "fitness", "cult.fit", "cultfit", "gold gym", "anytime fitness", "yoga", "crossfit"}, "Lifestyle", "Fitness"},
+	{[]string{"gym", "fitness", "cult.fit", "cultfit", "cure.fit", "gold gym", "anytime fitness", "yoga", "crossfit", "healthifyme", "fittr"}, "Lifestyle", "Fitness"},
 	{[]string{"salon", "spa", "beauty", "parlour", "parlor", "haircut", "grooming", "urban company", "urbanclap", "unisex salon"}, "Lifestyle", "Spa & Beauty"},
 
 	// Software & Subscriptions
-	{[]string{"defmacro", "cleartax", "notion", "slack", "github", "atlassian", "adobe", "microsoft", "google workspace", "dropbox", "canva"}, "Shopping", "Software & Subscriptions"},
+	{[]string{"defmacro", "cleartax", "notion", "slack", "github", "atlassian", "adobe", "microsoft", "google workspace", "dropbox", "canva", "icloud", "apple.com", "google one", "google storage", "chatgpt", "openai", "anthropic", "copilot", "midjourney", "perplexity"}, "Shopping", "Software & Subscriptions"},
 
 	// Financial
 	{[]string{"imps", "neft", "rtgs", "upi"}, "Financial", "Transfer"},
@@ -236,4 +238,5 @@ var keywordRules = []keywordRule{
 	{[]string{"rent", "pg ", "paying guest", "housing"}, "Financial", "Rent"},
 	{[]string{"atm", "cash withdrawal"}, "Financial", "Cash Withdrawal"},
 	{[]string{"mutual fund", "sip ", "investment", "zerodha", "groww", "kuvera", "paytm money"}, "Financial", "Investment"},
+	{[]string{"google pay", "gpay", "phonepe", "paytm", "cred ", "bharatpe", "mobikwik", "freecharge", "amazonpay", "amazon pay"}, "Financial", "Wallet & UPI"},
 }
