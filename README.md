@@ -2,7 +2,7 @@
 
 A privacy-first credit card spend categorization tool. Upload PDF credit card statements, get transactions automatically categorized using Merchant Category Codes (MCC) and keyword matching.
 
-<video src="docs/demo.mp4" controls width="100%"></video>
+<video src="https://github.com/user-attachments/assets/517c8120-70dd-4a36-b3e9-0ed42f544423" controls width="100%"></video>
 
 ## Privacy
 
